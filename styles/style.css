@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    text-align: center;
+    
+ }
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+.left-side {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.sub-title {
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.button {
+    display: block;
+    border: solid 1px #eeeeee;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 200px;
+    margin: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #eeeeee;
+}
+.camera-image{
+    display: flex;
+    justify-content:flex-end;
+    flex-grow: 1;
+    max-height: 100%;
+    max-width: 100%;
+    width: 50%;
+} 
+.our-work {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+.card{
+   padding-bottom: 20px;
+}
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.card h3 {
+    font-weight: bold;
+    margin: 8px;
+    
+    }
+.card p {
+        margin: 8px;  
+    }
+.footer footer  {
+        padding: 32px;
+    }
+.footer footer title {
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+.footer footer p{
+        margin-top: 10px;
+    }
+.footer  footer p span{
+    margin-top: 10px;
+    font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .main-container{
+    margin: auto;
+    text-align: center;
+    box-shadow:5px 10px  40px 18px #aaaaaa;
+         }
+}
+@media (min-width: 1220px) {
+    .main-container {
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 5px 10px  40px 18px #aaaaaa;
+    }
+    }
